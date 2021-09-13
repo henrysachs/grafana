@@ -23,7 +23,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
 
@@ -260,7 +260,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
 
@@ -739,7 +739,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
 
@@ -1108,7 +1108,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
   depends_on:
@@ -1685,7 +1685,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
 
@@ -2043,7 +2043,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
   depends_on:
@@ -2613,7 +2613,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
 
@@ -2942,7 +2942,7 @@ steps:
   - curl -fLO https://github.com/jwilder/dockerize/releases/download/v$${DOCKERIZE_VERSION}/dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - tar -C bin -xzvf dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
   - rm dockerize-linux-amd64-v$${DOCKERIZE_VERSION}.tar.gz
-  - yarn install --frozen-lockfile --no-progress
+  - YARN_ENABLE_PROGRESS_BARS=false yarn install --immutable
   environment:
     DOCKERIZE_VERSION: 0.6.1
   depends_on:
@@ -3478,6 +3478,6 @@ get:
 
 ---
 kind: signature
-hmac: 1ed78e5f23e4e069c2a2cdb34d5220b556a76c812b23fe4bdfad09289363370b
+hmac: fcce233de17b3830c0855829ad8d4e678f6f53ea56dd8586a3cd49241ac2a485
 
 ...
