@@ -177,7 +177,7 @@
     "html-webpack-harddisk-plugin": "2.0.0",
     "html-webpack-plugin": "5.3.2",
     "husky": "4.2.1",
-    "iconscout-unicons-tarball": "https://github.com/grafana/icons/tarball/master",
+    "iconscout-unicons-tarball": "https://github.com/grafana/icons/tarball/63056cd833ba7ee4e94904492b3a8c0cabc38d28",
     "jest": "26.6.3",
     "jest-canvas-mock": "2.3.0",
     "jest-date-mock": "1.0.8",
