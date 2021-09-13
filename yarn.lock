@@ -17807,7 +17807,7 @@ fsevents@^1.2.7:
     html-webpack-harddisk-plugin: 2.0.0
     html-webpack-plugin: 5.3.2
     husky: 4.2.1
-    iconscout-unicons-tarball: "https://github.com/kaydelaney/icons/tarball/master"
+    iconscout-unicons-tarball: "https://github.com/grafana/icons/tarball/63056cd833ba7ee4e94904492b3a8c0cabc38d28"
     immer: 9.0.6
     immutable: ">=3.8.1"
     jest: 26.6.3
@@ -18775,10 +18775,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"iconscout-unicons-tarball@https://github.com/kaydelaney/icons/tarball/master":
+"iconscout-unicons-tarball@https://github.com/grafana/icons/tarball/63056cd833ba7ee4e94904492b3a8c0cabc38d28":
   version: 1.0.0
-  resolution: "iconscout-unicons-tarball@https://github.com/kaydelaney/icons.git#commit=2265f4b5f49db38c7de5b9fe0a229add502b9747"
-  checksum: c46b9bcee8a389e64537eaa084ff4be46c0fbabc1cc373ca221939e4bc66f052848b9089e96052339b87557f0e6c5b98e4199d9c8b5a31711fb5d4e875e08b33
+  resolution: "iconscout-unicons-tarball@https://github.com/grafana/icons.git#commit=63056cd833ba7ee4e94904492b3a8c0cabc38d28"
+  checksum: 9e2ffe79d686e5c811e594a1c813e0e9b6a42c12850d93fb353e81d1445ce7a71480083e7d4c66399705103ad6ec5736d0352439d4f9d282505991c2f39e599f
   languageName: node
   linkType: hard
 
